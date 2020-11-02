@@ -18,6 +18,8 @@ target 'rn_boilerplate' do
 
   pod 'react-native-config', :path => '../node_modules/react-native-config'
 
+  pod 'SRSRadialGradient', :path => '../node_modules/react-native-radial-gradient'
+
   target 'rn_boilerplateTests' do
     inherit! :complete
     # Pods for testing
