@@ -16,6 +16,8 @@ target 'rn_boilerplate' do
 
   pod 'RNDeviceInfo', :path => '../node_modules/react-native-device-info'
 
+  pod 'react-native-config', :path => '../node_modules/react-native-config'
+
   target 'rn_boilerplateTests' do
     inherit! :complete
     # Pods for testing
