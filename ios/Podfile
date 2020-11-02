@@ -14,6 +14,8 @@ target 'rn_boilerplate' do
 
   pod 'ReactNativeART', :path => '../node_modules/@react-native-community/art'
 
+  pod 'RNDeviceInfo', :path => '../node_modules/react-native-device-info'
+
   target 'rn_boilerplateTests' do
     inherit! :complete
     # Pods for testing
