@@ -10,6 +10,8 @@ target 'rn_boilerplate' do
 
   pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
 
+  pod 'BVLinearGradient', :path => '../node_modules/react-native-linear-gradient'
+
   target 'rn_boilerplateTests' do
     inherit! :complete
     # Pods for testing
